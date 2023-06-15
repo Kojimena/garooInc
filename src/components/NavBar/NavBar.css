@@ -22,6 +22,8 @@
 
 .header .nav-menu a {
     color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .header .navbar img {
