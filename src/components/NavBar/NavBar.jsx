@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from "react-scroll"
 import "./NavBar.css"
+import Button from "../Button/Button"
 
 const Navbar = () => {
 
@@ -38,6 +39,7 @@ const Navbar = () => {
                         <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Contact Us</Link>
                     </li>
                 </ul>
+                <Button text="Contacto" whatsapp={true} backgroundcolor={"#29ABE2"}/>
             </nav>
         </div>
     )

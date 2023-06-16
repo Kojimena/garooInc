@@ -1,0 +1,15 @@
+.textdescbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+
+}
+
+@media screen and (max-width:940px) {
+    .textdescbutton{
+        width: 100%;
+    }
+}

@@ -67,6 +67,10 @@
         max-width: 100%;
     }
 
+    .navbar button {
+        display: none;
+    }
+
     .hamburger {
         display: block;
     }
