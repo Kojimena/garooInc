@@ -2,6 +2,8 @@ import React from "react"
 import "./PrincipalPage.css"
 import NavBar from "../../components/NavBar/NavBar"
 import Textdescbutton from "../../components/Textdescbutton/Textdescbutton"
+import Title from "../../components/Title/Title"
+import ImageText from "../../components/ImageText/ImageText"
 
 const PrincipalPage = () => {
 
@@ -17,10 +19,22 @@ const PrincipalPage = () => {
                 </div>
             </section>
             <section id='about' className="about">
-                <h1>About</h1>
+                <Title title1="Our" title2="Garoo" underlined color="#2B2B2B" paddingright="10px"/>
+                <div className='about__content'>
+                    <div className='about__content__image'>
+                        <img src="/images/img2.png" alt='about' />
+                    </div>
+                    <div className='about__content__text'>
+                        <Textdescbutton title1='A ordinary technology made extraordinary' title2='' paragraph="We store your data effectively with our super fast database storage system ensuring safety and security for your data." textbutton='Learn More' buttoncolor="#29ABE2" color="#fff" textcolor="#2B2B2B"/>
+                    </div>
+                </div>
             </section>
             <section id='services' className="services">
-                <h1>Services</h1>
+                <Title title1="Our" title2="Products" underlined color="#2B2B2B" paddingright="10px"/>
+                <div className='services__content'>
+                    <ImageText image="/images/img3.png" title="Garoo Cloud" text="We store your data effectively with our super fast database storage system ensuring safety and security for your data."/>
+                    <ImageText image="/images/img4.png" title="Garoo Cloud" text="We store your data effectively with our super fast database storage system ensuring safety and security for your data."/>
+                </div>
             </section>
             <section id='portfolio' className="portfolio">
                 <h1>Portfolio</h1>
