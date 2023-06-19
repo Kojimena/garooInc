@@ -32,8 +32,10 @@ const PrincipalPage = () => {
             <section id='services' className="services">
                 <Title title1="Our" title2="Products" underlined color="#2B2B2B" paddingright="10px"/>
                 <div className='services__content'>
-                    <ImageText image="/images/img3.png" title="Garoo Cloud" text="We store your data effectively with our super fast database storage system ensuring safety and security for your data."/>
-                    <ImageText image="/images/img4.png" title="Garoo Cloud" text="We store your data effectively with our super fast database storage system ensuring safety and security for your data."/>
+                    <ImageText image="/images/img3.png" title="E - Commerce Solutions" text="We take care of designing, creating, and managing your e-commerce site.
+                        Keep your site up to date, just send an email and we will do it for you."/>
+                    <ImageText image="/images/img4.png" title="Garoo Cloud" text="We create chatbots powered by Artificial Intelligence (Chat GPT).
+                        Save time and maintain efficient communication with everyone."/>
                 </div>
             </section>
             <section id='portfolio' className="portfolio">

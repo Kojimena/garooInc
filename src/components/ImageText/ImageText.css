@@ -5,9 +5,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
     padding: 4%;
     flex-basis: calc((100% / 3) - 10px);
+    min-height: 100%;
 }
 
 .imagetext h2{
@@ -19,7 +19,6 @@
 .imagetext p{
     color: #2B2B2B;
     font-weight: 400;
-    font-size: 20px;
 }
 
 .imagetext img{
