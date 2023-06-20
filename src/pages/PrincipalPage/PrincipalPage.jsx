@@ -4,6 +4,8 @@ import NavBar from "../../components/NavBar/NavBar"
 import Textdescbutton from "../../components/Textdescbutton/Textdescbutton"
 import Title from "../../components/Title/Title"
 import ImageText from "../../components/ImageText/ImageText"
+import { logos } from "../../assets/imgLogos"
+import ImgLogo from "../../components/ImgLogo/ImgLogo"
 
 const PrincipalPage = () => {
 
@@ -39,7 +41,13 @@ const PrincipalPage = () => {
                 </div>
             </section>
             <section id='portfolio' className="portfolio">
-                <h1>Portfolio</h1>
+                <Title title1="Trusted By Renowned" title2="ENTREPRENEURS"  color="#2B2B2B" paddingright="10px" column/>
+                <div className='portfolio__content logo-container'>
+                    {logos.map((logo) =>  (
+                            <ImgLogo image={logo.image} key={logo.name}/>
+                        ))
+                    }
+                </div>
             </section>
             <section id='contact' className="contact">
                 <h1>Contact Us</h1>

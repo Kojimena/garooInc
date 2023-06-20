@@ -1,0 +1,37 @@
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.imglogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    flex-basis: calc(33.33% - 20px); 
+    margin: 10px; 
+    box-sizing: border-box;
+}
+
+.imglogo img {
+    max-width: 60%; 
+    height: auto;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.imglogo:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .imglogo {
+        flex-basis: calc(50% - 20px); /* Para pantallas más pequeñas, 2 por fila */
+        padding: 10px;
+    }
+
+    .imglogo img {
+        max-width: 100%;
+    }
+}
