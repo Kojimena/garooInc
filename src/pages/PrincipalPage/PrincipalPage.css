@@ -84,7 +84,6 @@
     align-items: flex-start;
     padding: 4%;
     justify-content: flex-start;
-    height: 100%;
     background-color: #F8F8F8;
 }
 
@@ -142,8 +141,52 @@
     .home__content{
         display: flex;
         width: 100%;
-        height: 100%;
+        height: 30%;
         justify-content: center;
         align-items: center;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-color: #fff;
+    }
+    
+    .about__content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .about__content__image {
+        width: 100%;
+        background-color: transparent;
+        top: 10px;
+        left: 0;
+    }
+
+    .about__content__text {
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4%;
+        justify-content: center;
+        /* height: 100%; */
+        background-color: #F8F8F8;
+    }
+
+    .services__content {
+        flex-direction: column;
     }
 }
