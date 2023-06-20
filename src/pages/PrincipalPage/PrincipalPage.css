@@ -192,7 +192,6 @@
         align-items: center;
         padding: 4%;
         justify-content: center;
-        /* height: 100%; */
         background-color: #F8F8F8;
     }
 
@@ -200,7 +199,4 @@
         flex-direction: column;
     }
 
-    .portfolio__content{
-        padding: 20px;
-     }
 }

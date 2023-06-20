@@ -27,11 +27,8 @@
 
 @media screen and (max-width: 768px) {
     .imglogo {
-        flex-basis: calc(50% - 20px); /* Para pantallas más pequeñas, 2 por fila */
+        flex-basis: calc(40% - 20px); /* Para pantallas más pequeñas, 2 por fila */
         padding: 10px;
     }
 
-    .imglogo img {
-        max-width: 100%;
-    }
 }
