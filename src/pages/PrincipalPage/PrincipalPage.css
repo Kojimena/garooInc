@@ -101,7 +101,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-color: #000;
+    background-color: #03254C;
 }
 
 .portfolio{
@@ -120,6 +120,13 @@
 }
 .logo-container > * {
     flex: 1 0 33.33%;
+}
+
+.contact__content {
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
 }
 
 

@@ -6,6 +6,8 @@ import Title from "../../components/Title/Title"
 import ImageText from "../../components/ImageText/ImageText"
 import { logos } from "../../assets/imgLogos"
 import ImgLogo from "../../components/ImgLogo/ImgLogo"
+import Testimonial from "../../components/Testimonial/Testimonial"
+import { testimonialData } from "../../assets/testimonialData"
 
 const PrincipalPage = () => {
 
@@ -50,7 +52,10 @@ const PrincipalPage = () => {
                 </div>
             </section>
             <section id='contact' className="contact">
-                <h1>Contact Us</h1>
+                <Title title1="Trusted By Over" title2="100+ Clients Worldwide" column color="#fff"/>
+                <div className='contact__content'>
+                <Testimonial></Testimonial>
+                </div>
             </section>
         </div>
     )
