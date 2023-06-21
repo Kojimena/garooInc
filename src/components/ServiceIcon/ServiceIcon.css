@@ -1,0 +1,55 @@
+.serviceicon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap : 10px;
+    margin-bottom: 2%;
+}
+
+.overlay_serviceicon{
+    background-color: #F1FCFF;
+    border: 1px solid #29ABE2;
+    border-radius: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.overlay_serviceicon img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.serviceicon h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #03254C;
+    margin: 0;
+    padding: 0;
+}
+
+.serviceicon p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7E7E7E;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:940px) {
+
+    .serviceicon h1 {
+        font-size: 20px;
+    }
+
+    .serviceicon p {
+        font-size: 12px;
+    }
+}

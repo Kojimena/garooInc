@@ -36,7 +36,10 @@ const Navbar = () => {
                         <Link to="portfolio" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Portfolio</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Contact Us</Link>
+                        <Link to="reviews" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Testimonials</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="service" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Blog</Link>
                     </li>
                 </ul>
                 <Button text="Contacto" whatsapp={true} backgroundcolor={"#29ABE2"}/>

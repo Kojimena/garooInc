@@ -8,6 +8,7 @@ import { logos } from "../../assets/imgLogos"
 import ImgLogo from "../../components/ImgLogo/ImgLogo"
 import Testimonial from "../../components/Testimonial/Testimonial"
 import { testimonialData } from "../../assets/testimonialData"
+import ServiceIcon from "../../components/ServiceIcon/ServiceIcon"
 
 const PrincipalPage = () => {
 
@@ -51,11 +52,23 @@ const PrincipalPage = () => {
                     }
                 </div>
             </section>
-            <section id='contact' className="contact">
+            <section id='reviews' className="reviews">
                 <Title title1="Trusted By Over" title2="100+ Clients Worldwide" column color="#fff"/>
                 <div className='contact__content'>
                 <Testimonial></Testimonial>
                 </div>
+            </section>
+            <section id='service' className="service">
+                <Title title1="Service we provide" title2="" underlined color="#2B2B2B" paddingright="10px"/>
+                <div className='service__content'>
+                    <ServiceIcon image="/images/img5.svg" title="Web Design" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
+                    <ServiceIcon image="/images/img6.svg" title="UI/UX Design" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
+                    <ServiceIcon image="/images/img7.svg" title="Branding" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
+                    <ServiceIcon image="/images/img8.svg" title="Digital Marketing" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
+                    <ServiceIcon image="/images/img9.svg" title="SEO" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
+                    <ServiceIcon image="/images/img10.svg" title="Email Marketing" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
+                </div>
+                
             </section>
         </div>
     )
