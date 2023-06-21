@@ -10,6 +10,7 @@ import Testimonial from "../../components/Testimonial/Testimonial"
 import { testimonialData } from "../../assets/testimonialData"
 import ServiceIcon from "../../components/ServiceIcon/ServiceIcon"
 import Button from "../../components/Button/Button"
+import Footer from "../../components/Footer/Footer"
 
 const PrincipalPage = () => {
 
@@ -81,6 +82,10 @@ const PrincipalPage = () => {
                 <Button text="Get A Quote" backgroundcolor="#29ABE2" colortext="fff"/>
             </div>
             </section>
+            <section id='footer' className="footer">
+                <Footer />
+            </section>
+
         </div>
     )
 }
