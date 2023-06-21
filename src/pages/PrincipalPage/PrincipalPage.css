@@ -133,7 +133,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 100%;
     padding: 4%;
     background-color: #fff;
 }
@@ -147,6 +146,46 @@
 .service__content > div {
     flex: 1 0 33.33%;
 }
+
+.prefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+    background-color: #03254C;
+    align-items: center;
+}
+
+.textdescprefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textdescbutton__title{
+    font-weight: 700;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.textdescbutton__title .title {
+    color: #fff;
+    width: 100%;
+}
+
+.textdescbutton__title .subtitle {
+    color: #29ABE2;
+}
+
+.textdescprefooter p{
+    width: 40%;
+    text-align: center;
+}
+
+
 
 
 
@@ -228,6 +267,35 @@
 
     .service__content {
         gap: 10px;
+    }
+
+    .prefooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4%;
+        background-color: #03254C;
+        align-items: center;
+    }
+    
+    .textdescprefooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .textdescbutton__title{
+        font-size: 32px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .textdescprefooter p{
+        width: 80%;
+        text-align: center;
     }
 
 

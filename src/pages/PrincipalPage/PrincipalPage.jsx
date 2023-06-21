@@ -9,6 +9,7 @@ import ImgLogo from "../../components/ImgLogo/ImgLogo"
 import Testimonial from "../../components/Testimonial/Testimonial"
 import { testimonialData } from "../../assets/testimonialData"
 import ServiceIcon from "../../components/ServiceIcon/ServiceIcon"
+import Button from "../../components/Button/Button"
 
 const PrincipalPage = () => {
 
@@ -17,7 +18,7 @@ const PrincipalPage = () => {
             <NavBar />
             <section id='/' className="home">
                 <div className='home__content'>
-                <Textdescbutton title1='Ordinary technology' title2='made extraordinary' paragraph="Helping entrepreneurs get online" textbutton='Learn More' buttoncolor="#fff" color="#000"/>
+                <Textdescbutton title1='Ordinary technology' title2='made extraordinary' paragraph="Helping entrepreneurs get online" textbutton='Learn More' buttoncolor="#fff" color="#000" align="flex-start"/>
                 </div>
                 <div className='home__image'>
                     <img src="/images/img1.png" alt='home' />
@@ -69,6 +70,16 @@ const PrincipalPage = () => {
                     <ServiceIcon image="/images/img10.svg" title="Email Marketing" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
                 </div>
                 
+            </section>
+            <section id='prefooter' className="prefooter">
+            <div className='textdescprefooter' >
+                <div className='textdescbutton__title'>
+                    <span className='title'>From Guatemala to the</span>
+                    <span className='subtitle'>World.</span>
+                </div>
+                <p className='paragraph'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                <Button text="Get A Quote" backgroundcolor="#29ABE2" colortext="fff"/>
+            </div>
             </section>
         </div>
     )
