@@ -21,6 +21,8 @@ const PrincipalPage = () => {
                 <div className='home__content'>
                 <Textdescbutton title1='Ordinary technology' title2='made extraordinary' paragraph="Helping entrepreneurs get online" textbutton='Learn More' buttoncolor="#fff" color="#000" align="flex-start"/>
                 </div>
+                <img src="/images/gradient.svg" alt='home' className="gradient"/>
+                <img src="/images/dots.svg" alt='home' className="dots"/>
                 <div className='home__image'>
                     <img src="/images/img1.png" alt='home' />
                 </div>
@@ -79,7 +81,7 @@ const PrincipalPage = () => {
                     <span className='subtitle'>World.</span>
                 </div>
                 <p className='paragraph'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                <Button text="Get A Quote" backgroundcolor="#29ABE2" colortext="fff"/>
+                <Button text="Cotizar" backgroundcolor="#29ABE2" colortext="fff"/>
             </div>
             </section>
             <section id='footer' className="footer">
