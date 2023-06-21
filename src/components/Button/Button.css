@@ -10,3 +10,8 @@
     background-color: #1C6EA4;
     cursor: pointer;
 }
+
+.btn{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
