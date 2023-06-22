@@ -194,6 +194,7 @@
 .textdescbutton__title .title {
     color: #fff;
     width: 100%;
+    font-weight: 800;
 }
 
 .textdescbutton__title .subtitle {
