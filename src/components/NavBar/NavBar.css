@@ -83,7 +83,7 @@
         flex-direction: column;
         background-color: #03254C;
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         z-index: 999;
         text-align: center;
         transition: .3s;
@@ -93,6 +93,7 @@
 
     .nav-menu.active {
         left: 0;
+        top: 7%;
     }
 
     .nav-item {
