@@ -296,7 +296,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 4%;
+        padding-top: 10%;
+        padding-bottom: 10%;
         background-color: #03254C;
         align-items: center;
     }
