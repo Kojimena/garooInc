@@ -42,7 +42,7 @@ const Navbar = () => {
                         <Link to="service" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Blog</Link>
                     </li>
                 </ul>
-                <Button text="Contacto" whatsapp={true} backgroundcolor={"#29ABE2"}/>
+                <Button text="Contact us" whatsapp={true} backgroundcolor={"#29ABE2"}/>
             </nav>
         </div>
     )

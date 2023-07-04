@@ -9,7 +9,15 @@ const ImageText = ({ image, title, text }) => {
             <img className='image_imgtext' src={image} alt={title}/>
             <div className='overlay_imgtext'>
                 <h2 className='title_imgtext'>{title}</h2>
-                <p className='text_imgtext'>{text}</p>
+                {(() => {
+                if (typeof text === "string") {
+                    return <p className='text_imgtext'>{text}</p>
+                } else {
+                    return text.map((item, index) =>
+                        <p key={index} className='text_imgtext'>{item}</p>
+                    )
+                }
+            })()}
             </div>
         </div>
     )
