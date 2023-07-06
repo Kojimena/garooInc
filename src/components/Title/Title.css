@@ -32,8 +32,8 @@
 
 
 @media screen and (max-width:940px) {
-    .titlecolumn .title1{
-        font-size: 32px;
+    .titlecolumn .title1, .titlecolumn .title2{
+        font-size: 32px !important;
     }
 
     .titlecolumn .title2{
