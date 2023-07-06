@@ -28,4 +28,8 @@
         align-items: center;
         padding-top: 5%;
     }
+
+    .textdescbutton p{
+        width: 80%;
+    }
 }
