@@ -30,6 +30,8 @@
     }
 
     .textdescbutton p{
-        width: 80%;
+        width: 72%;
+        text-align: justify;
+        margin: 0;
     }
 }
