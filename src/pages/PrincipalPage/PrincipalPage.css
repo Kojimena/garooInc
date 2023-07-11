@@ -341,6 +341,11 @@
         padding-bottom: 0%;
     }
 
+    .contact__content {
+        position: relative;
+        top: 10%;
+    }
+
 
 
 
