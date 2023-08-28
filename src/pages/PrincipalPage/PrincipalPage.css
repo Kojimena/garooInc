@@ -157,10 +157,11 @@
     display: flex;
     flex-wrap: wrap;
     margin: 10% 2% 2% 2%;
+    gap: 5%;
 }
 
 .service__content > div {
-    flex: 1 0 33.33%;
+    flex: 1 0 30%;
 }
 
 .prefooter{
